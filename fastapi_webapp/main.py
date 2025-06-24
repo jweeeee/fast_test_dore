@@ -36,8 +36,9 @@ async def index():
     </style></head><body>
     <div style=''>
     <img src='/static/images/logo.jpeg' width='100' style='display:inline-block'>
-    <h1>도르리 대전앙금플라워떡케이크.</h1>
+    <div style='display:inline-block'><h1>도르리 대전앙금플라워떡케이크.</h1>
     <h4>수제 앙금 플라워케이크 도르리입니다.</h4>
+    </div>
     </div>
     <br><br><br>
     <h4>원데이 클래스</h4>
