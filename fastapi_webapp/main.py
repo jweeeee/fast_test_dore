@@ -31,6 +31,7 @@ async def index():
     <html><head><title>도르리 대전 수제 케이크</title>
     <style>
       body{font-family:sans-serif;background-color:#fef8ec}
+      h4{font:pink}
       .img-wrap{display:flex;flex-direction:column;gap:15px;margin-top:20px}
       .fixed-links{position:fixed;right:20px;bottom:20px;background:#eee;padding:10px;border-radius:8px}
     </style></head><body>
@@ -45,9 +46,7 @@ async def index():
     <hr>
     
     <div class="img-wrap">
-      <img src="/static/images/sample1.jpg" width="300">
-      <img src="/static/images/sample2.jpg" width="300">
-      <img src="/static/images/sample3.jpg" width="300">
+   
     """
     for img in images:
         html += f'<img src="/static/images/{img}" width="300">'
