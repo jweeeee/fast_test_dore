@@ -1,24 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <title>도르리 케이크</title>
-    <link rel="stylesheet" href="/static/css/style.css">
+  <meta charset="UTF-8">
+  <title>도르리 대전앙금플라워떡케이크 </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: sans-serif; }
+    
+    /* 헤더 */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #333;
+      color: white;
+      padding: 1rem;
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* 우측 사이드 메뉴바 */
+    .side-menu {
+      position: fixed;
+      right: 0;
+      top: 80px;
+      width: 150px;
+      background: #f0f0f0;
+      border-left: 1px solid #ccc;
+      padding: 1rem;
+      z-index: 900;
+      height: 100%;
+    }
+
+    .side-menu a {
+      display: block;
+      margin-bottom: 1rem;
+      color: #333;
+      text-decoration: none;
+    }
+
+    /* 하단 고정 아이콘 */
+    .floating-icons {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      z-index: 1001;
+    }
+
+    .floating-icons img {
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+    }
+
+    /* 본문 */
+    main {
+      margin-top: 80px;
+      margin-right: 160px;
+      padding: 2rem;
+    }
+
+    .company-name {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .image-stack img {
+      display: block;
+      width: 100%;
+      max-width: 600px;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
-    <div class="sidebar">
-        <a href="/">홈</a>
-        <a href="/order">주문 안내</a>
-        <a href="/order">안내</a>
-        <a href="/order">안내</a>
-        <a href="/order">~~~안내</a>
-        <a href="/order">3333</a>
-        <a href="/order">123</a>
-        
+
+  <header>
+    <a href="#m1">클래스 안내</a>
+    <a href="#m2">보자기케이크</a>
+    <a href="#m3">한식디저트</a>
+    <a href="#m4">답례품/선물세</a>
+    <a href="#m5">앙금플라워케이</a>
+    <a href="#m6">이벤트케이크</a>
+    <a href="#m7">하..힘들</a>
+  </header>
+
+  <div class="side-menu">
+    <a href="#about">가게소개</a>
+    <a href="#menu">메뉴안내</a>
+    <a href="#contact">오시는길</a>
+    <a href="#review">고객후기</a>
+    <a href="#order">주문안내</a>
+  </div>
+
+  <main>
+    <div class="company-name">도르리케이크</div>
+    <div class="image-stack">
+      <img src="/static/img1.jpg" alt="sample1">
+      <img src="/static/img2.jpg" alt="sample2">
+      <img src="/static/img3.jpg" alt="sample3">
     </div>
-    <div class="content">
-        <h1>도르리도르리</h1>
-        <p> 도르리 케이크 </p>
-    </div>
+  </main>
+
+  <div class="floating-icons">
+    <a href="https://instagram.com/yourpage" target="_blank">
+      <img src="/static/insta.png" alt="Instagram">
+    </a>
+    <a href="https://pf.kakao.com/_xxxx" target="_blank">
+      <img src="/static/kakao.png" alt="Kakao">
+    </a>
+  </div>
+
 </body>
 </html>
