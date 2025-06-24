@@ -51,7 +51,7 @@ async def index():
     for img in images:
         html += f'<img src="/static/images/{img}" width="300">'
     html += """
-
+      </div>
      <br><br><br>
     <h4>클래스 안내</h4>
     <hr>
@@ -65,7 +65,7 @@ async def index():
     <h4>앙금플라워케이크</h4>
     <hr>
     
-    </div>
+  
     <div class="fixed-links">
       <a href="https://instagram.com" style="border-radius:300px">인스타그램연결</a><br>
       <a href="https://open.kakao.com" style="border-radius:300px">카카오오픈톡연결</a>
