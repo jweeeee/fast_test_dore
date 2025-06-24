@@ -28,17 +28,21 @@ def save_images(image_list):
 async def index():
     images = load_images()
     html = """
-    <html><head><title>도르리 대전 수제 </title>
+    <html><head><title>도르리 대전 수제 케이크</title>
     <style>
       body{font-family:sans-serif}
       .img-wrap{display:flex;flex-direction:column;gap:15px;margin-top:20px}
       .fixed-links{position:fixed;right:20px;bottom:20px;background:#eee;padding:10px;border-radius:8px}
     </style></head><body>
-    <div style='background-color:pink'>
-    <img src='/static/images/logo.jpeg' width='100'>
+    <div style=''>
+    <img src='/static/images/logo.jpeg' width='100' style='display:inline-block'>
     <h1>도르리 대전앙금플라워떡케이크.</h1>
-    <h2>수제 앙금 플라워케이크 도르리입니다.</h2>
+    <h4>수제 앙금 플라워케이크 도르리입니다.</h4>
     </div>
+    <br><br><br>
+    <h4>원데이 클래스</h4>
+    <hr>
+    
     <div class="img-wrap">
       <img src="/static/images/sample1.jpg" width="300">
       <img src="/static/images/sample2.jpg" width="300">
@@ -47,6 +51,20 @@ async def index():
     for img in images:
         html += f'<img src="/static/images/{img}" width="300">'
     html += """
+
+     <br><br><br>
+    <h4>원데이 클래스</h4>
+    <hr>
+     <br><br><br>
+    <h4>원데이 클래스</h4>
+    <hr>
+     <br><br><br>
+    <h4>원데이 클래스</h4>
+    <hr>
+     <br><br><br>
+    <h4>원데이 클래스</h4>
+    <hr>
+    
     </div>
     <div class="fixed-links">
       <a href="https://instagram.com">인스타그램연결결</a><br>
