@@ -30,7 +30,7 @@ async def index():
     html = """
     <html><head><title>도르리 대전 수제 케이크</title>
     <style>
-      body{font-family:sans-serif}
+      body{font-family:sans-serif;background-color:#fef8ec}
       .img-wrap{display:flex;flex-direction:column;gap:15px;margin-top:20px}
       .fixed-links{position:fixed;right:20px;bottom:20px;background:#eee;padding:10px;border-radius:8px}
     </style></head><body>
