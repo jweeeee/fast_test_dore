@@ -42,7 +42,7 @@ async def index():
     </div>
     </div>
     <br><br><br>
-    <h4>원데이 클래스</h4>
+    <h4>케이크디자인</h4>
     <hr>
     
     <div class="img-wrap">
@@ -53,16 +53,16 @@ async def index():
     html += """
 
      <br><br><br>
-    <h4>원데이 클래스</h4>
+    <h4>클래스 안내</h4>
     <hr>
      <br><br><br>
-    <h4>원데이 클래스</h4>
+    <h4>한식 디저트</h4>
     <hr>
      <br><br><br>
-    <h4>원데이 클래스</h4>
+    <h4>답례품/선물세트</h4>
     <hr>
      <br><br><br>
-    <h4>원데이 클래스</h4>
+    <h4>앙금플라워케이크</h4>
     <hr>
     
     </div>
