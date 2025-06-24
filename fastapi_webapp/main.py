@@ -28,13 +28,17 @@ def save_images(image_list):
 async def index():
     images = load_images()
     html = """
-    <html><head><title>메인 페이지</title>
+    <html><head><title>도르리 대전 수제 </title>
     <style>
       body{font-family:sans-serif}
       .img-wrap{display:flex;flex-direction:column;gap:15px;margin-top:20px}
       .fixed-links{position:fixed;right:20px;bottom:20px;background:#eee;padding:10px;border-radius:8px}
     </style></head><body>
-    <h1>🍽️ 우리 가게 메뉴 소개</h1>
+    <div style='background-color:pink'>
+    <img src='/static/images/logo.jpeg' width='100'>
+    <h1>도르리 대전앙금플라워떡케이크.</h1>
+    <h2>수제 앙금 플라워케이크 도르리입니다.</h2>
+    </div>
     <div class="img-wrap">
       <img src="/static/images/sample1.jpg" width="300">
       <img src="/static/images/sample2.jpg" width="300">
@@ -45,8 +49,8 @@ async def index():
     html += """
     </div>
     <div class="fixed-links">
-      <a href="https://instagram.com">📷 인스타</a><br>
-      <a href="https://open.kakao.com">💬 카카오</a>
+      <a href="https://instagram.com">인스타그램연결결</a><br>
+      <a href="https://open.kakao.com">카카오오픈톡연결</a>
     </div>
     </body></html>
     """
