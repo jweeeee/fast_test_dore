@@ -67,8 +67,8 @@ async def index():
     
     </div>
     <div class="fixed-links">
-      <a href="https://instagram.com">인스타그램연결</a><br>
-      <a href="https://open.kakao.com">카카오오픈톡연결</a>
+      <a href="https://instagram.com" style="border-radius:300px">인스타그램연결</a><br>
+      <a href="https://open.kakao.com" style="border-radius:300px">카카오오픈톡연결</a>
     </div>
     </body></html>
     """
