@@ -82,8 +82,8 @@ async def admin_page():
     <html><head><title>관리자</title></head><body>
     <h2>이미지 업로드 (관리자 전용)</h2>
     <form action="/upload" method="post" enctype="multipart/form-data">
-      <input type="file" name="file" accept="image/*"><br><br>
-      <button type="submit">업로드</button>
+      <input type="file" name="file" accept="image/*" style="width: 40%; height: 20%; font-size: 1rem;"><br><br>
+      <button type="submit" style="width: 40%; height: 20%; font-size: 1rem;">업로드</button>
     </form>
     <p><a href="/">← 메인으로</a></p>
     </body></html>
