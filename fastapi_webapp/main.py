@@ -5,7 +5,7 @@ import shutil, os, json
 
 app = FastAPI()
 
-BASE_DIR   = "fastapi_webapp"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 IMAGE_DIR  = os.path.join(BASE_DIR, "static", "images")
 DATA_PATH  = os.path.join(BASE_DIR, "data", "images.json")
 
